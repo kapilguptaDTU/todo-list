@@ -1,0 +1,167 @@
+body {
+    font-family: 'Muli', Sans-serif;
+    margin: 0;
+    /*  background-image:url('http://www.webxsystems.com/Images/Site/Sliders/bg-blur.jpg'); */
+    background-image: url('http://orig00.deviantart.net/acb6/f/2013/303/7/6/gif___running_through_the_rain_by_turst67-d6scius.gif');
+    background-size: cover;
+  }
+
+
+  .page-title {
+    padding: 15px;
+    color: #22313F;
+    font-size: 1.6em;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .page-title h1 {
+    margin: 0;
+  }
+  
+  .page-title .tag {
+    padding: 0;
+    color: #3A539B;
+    font-weight: bold;
+    font-size: .7em;
+    width: 18em;
+    animation: type 2s steps(200, end);
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  .tag .caret {
+    animation: blink 1s;
+  }
+  
+  @keyframes type {
+    from {
+      width: 0;
+    }
+  }
+  
+  @keyframes blink {
+    to {
+      opacity: .0;
+    }
+  }
+  
+  .page-title [class*=icon] {
+    font-size: 1em;
+    color: #26A65B;
+  }
+  /* end of heading */
+
+.working-todos{
+    display: flex;
+flex-direction: column;
+}
+
+.plus{
+    text-align: right;
+}
+.delete{
+    text-align: end;
+}
+.f{
+    display: flex;
+flex-direction: column;
+}
+.fas{
+text-align: right;
+    color: white;
+}
+.fa-trash-alt:before {
+    margin-right: 10px;
+    content: "\f2ed";
+}
+input, textarea, select, button {
+    text-rendering: auto;
+    color: white;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+input{border: transparent;
+    margin-top: 5px;
+    height: 40px;
+    border-radius: 1%;
+    background-color: #fefefef2;
+    
+width: 99%; 
+    font-size: 18px;
+    /* background-color: #D6C9CB; */
+    padding: 13px 13px 13px 20px;
+    color:black;
+
+/*    opacity: 0.6;*/
+/*    color: white;*/
+}
+
+input:focus{
+    background: white;
+    border: 2px solid #2980b9;
+    outline: none;
+    
+}
+
+
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+/*    background-color: white;*/
+    height: 40px;
+    line-height: 40px;
+    color:#666;
+    cursor: pointer;
+    margin: 1%;
+    border: 2px transparent;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+}
+li{
+    background-color: tomato;
+    border-radius: 5%;
+    color: white;
+}
+.middle{
+    margin:3% 44% ;
+}
+/* .cont{
+    background-color: white;
+ }  */
+.bor{
+    /* border: 2px solid white; */
+    width: 360px;
+}
+.cnter{
+    margin:  10%  auto ;   
+}
+
+    .heading{
+            background-color: #13017b;
+        color: white;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }   
+li{
+    list-style: none;
+    
+}
+.strike{
+    color: white;
+    text-decoration: line-through;
+}
